@@ -1,0 +1,15 @@
+.places__card_type_one-text {
+    grid-template-areas:
+        "title link"
+        "image first-text"
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .places__card_type_one-text {
+
+        grid-template-areas:
+            "title"
+            "link"
+            "image"
+            "first-text"
+    }
+}

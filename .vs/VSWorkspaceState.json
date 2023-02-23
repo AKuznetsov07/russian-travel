@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\blocks",
+    "\\blocks\\cover",
+    "\\blocks\\cover\\__front",
+    "\\blocks\\cover\\__front\\__subtitle",
+    "\\blocks\\cover\\__front\\__title",
+    "\\blocks\\page",
+    "\\blocks\\photo-grid",
+    "\\blocks\\places",
+    "\\blocks\\places\\__card",
+    "\\blocks\\places\\__card\\_part"
+  ],
+  "SelectedNode": "\\blocks\\photo-grid\\photo-grid.css",
+  "PreviewInSolutionExplorer": false
+}
