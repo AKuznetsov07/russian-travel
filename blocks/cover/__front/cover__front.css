@@ -1,4 +1,6 @@
 .cover__front {
+    padding: 0;
+    margin: 0;
     width: 100%;
     background-color: rgba(42, 44, 47,0.3);
     grid-column: 1;
@@ -12,7 +14,7 @@
     transition-property: background-color;
     transition-duration: 1s;
     transition-delay: 0s;
-    text-decoration-line:none;
+    text-decoration-line: none;
 }
 .cover__front:hover {
     background-color: rgba(42, 44, 47,0.8);

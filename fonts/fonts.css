@@ -3,10 +3,13 @@
     font-family: 'Inter';
     font-weight: normal;
 }
-
 @font-face {
-    src: url(./inter/semibold/InterSemiBold.woff2) format('woff2'), url(./inter/semibold/InterSemiBold.woff) format('woff');
+    src: url(./inter/bold/Inter-Bold.woff2) format('TrueType');
     font-family: 'Inter';
-    font-weight: 600;
+    font-weight: 700;
 }
+@font-face {
+    src: url(./inter/black/Inter-Black.woff2) format('TrueType');
+    font-family: 'Inter';
+    font-weight: 900;
 }
