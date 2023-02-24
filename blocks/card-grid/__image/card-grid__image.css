@@ -1,0 +1,8 @@
+.card-grid__image {
+    grid-area: image;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+}

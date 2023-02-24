@@ -1,0 +1,9 @@
+.card-grid__link-zone {
+    grid-area: link;
+    padding: 0;
+    margin: 0 0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 12px;
+}
