@@ -4,12 +4,12 @@
     font-weight: normal;
 }
 @font-face {
-    src: url(./inter/bold/Inter-Bold.woff2) format('TrueType');
+    src: url(./inter/bold/Inter-Bold.ttf) format('TrueType');
     font-family: 'Inter';
     font-weight: 700;
 }
 @font-face {
-    src: url(./inter/black/Inter-Black.woff2) format('TrueType');
+    src: url(./inter/black/Inter-Black.ttf) format('TrueType');
     font-family: 'Inter';
     font-weight: 900;
 }
