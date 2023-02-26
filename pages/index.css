@@ -11,6 +11,7 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link-label/header__link-label.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language-selector/header__language-selector.css);
 
@@ -22,14 +23,13 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 
-@import url(../blocks/statistics-list/statistics-list.css);
-@import url(../blocks/statistics-list/__item/statistics-list__item.css);
-@import url(../blocks/statistics-list/__parameter/statistics-list__parameter.css);
-@import url(../blocks/statistics-list/__value/statistics-list__value.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__statistics-list/intro__statistics-list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-value/intro__list-value.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__cell/photo-grid__cell.css);
@@ -40,14 +40,12 @@
 @import url(../blocks/places/places.css);
 
 @import url(../blocks/card-grid/card-grid.css);
-@import url(../blocks/card-grid/_type/card-grid_type_one-text.css);
-@import url(../blocks/card-grid/_type/card-grid_type_two-texts.css);
-@import url(../blocks/card-grid/__first-text/card-grid__first-text.css);
+@import url(../blocks/card-grid/__text-block/card-grid__text-block.css);
+@import url(../blocks/card-grid/__text/card-grid__text.css);
 @import url(../blocks/card-grid/__image/card-grid__image.css);
 @import url(../blocks/card-grid/__link/card-grid__link.css);
 @import url(../blocks/card-grid/__link-tag/card-grid__link-tag.css);
 @import url(../blocks/card-grid/__link-zone/card-grid__link-zone.css);
-@import url(../blocks/card-grid/__second-text/card-grid__second-text.css);
 @import url(../blocks/card-grid/__title/card-grid__title.css);
 
 @import url(../blocks/cover/cover.css);

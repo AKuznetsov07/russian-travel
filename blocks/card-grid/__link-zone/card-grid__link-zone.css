@@ -7,3 +7,9 @@
     justify-content: end;
     gap: 12px;
 }
+@media screen and (max-width: 767px) {
+    .card-grid__link-zone {
+        padding: 0 16px;
+        margin: 0 0 32px;
+    }
+}

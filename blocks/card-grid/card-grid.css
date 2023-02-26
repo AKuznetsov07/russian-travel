@@ -5,10 +5,11 @@
     column-gap: 40px;
     box-sizing: border-box;
     grid-template-columns: minmax(min-content,max-content) 1fr;
+    grid-template-areas:
+        "title link"
+        "image text-block"
 }
-card-grid:last-of-type {
-    border: 2px solid orange;
-}
+
 @media screen and (max-width: 1279px) {
     .card-grid {
         column-gap: 32px;
@@ -18,5 +19,16 @@ card-grid:last-of-type {
 @media screen and (max-width: 1023px) {
     .card-grid {
         column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-grid {
+        column-gap: 0;
+        grid-template-areas:
+            "title"
+            "link"
+            "image"
+            "text-block"
     }
 }

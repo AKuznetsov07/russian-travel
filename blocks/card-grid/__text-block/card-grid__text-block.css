@@ -1,0 +1,25 @@
+.card-grid__text-block {
+    grid-area: text-block;
+    display: flex;
+    flex-direction: column;
+    gap:26px;
+}
+@media screen and (max-width: 1279px) {
+    .card-grid__text-block {
+        min-width: 456px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .card-grid__text-block {
+        min-width: 352px;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-grid__text-block {
+        padding:0 16px;
+        min-width: 288px;
+    }
+}

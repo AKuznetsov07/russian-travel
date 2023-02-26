@@ -1,14 +1,16 @@
 .header__link {
 	margin: 0;
 	padding: 0;
-
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 28px;
-
 	text-align: right;
-	text-decoration-line: underline;
+	text-decoration-line: none;
 	color: #FFFFFF;
-}
 
+	width: 1px; /* если у элемента не будет размеров, некоторые браузеры посчитают, что его вообще нет */
+	height: 1px;
+	overflow: hidden; /* без этого свойства тоже сработает, но так наверняка. Мы его ещё изучим, оно скрывает элементы, выходящие за границы родителя */
+	clip-path: inset(0 0 0 0);
+}

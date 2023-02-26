@@ -1,9 +1,8 @@
-.statistics-list__item {
-    display: flex;
+.intro__list-value {
     margin: 0;
     padding: 0;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
