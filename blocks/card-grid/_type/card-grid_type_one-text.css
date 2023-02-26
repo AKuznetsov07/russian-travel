@@ -3,7 +3,7 @@
         "title link"
         "image first-text"
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .card-grid_type_one-text {
         grid-template-areas:
             "title"

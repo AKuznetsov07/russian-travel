@@ -4,9 +4,10 @@
     margin: 0;
     gap: 18px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .footer__link-section {
-        flex-direction:column;
+        gap: 32px;
+        flex-direction: column;
     }
 }
 

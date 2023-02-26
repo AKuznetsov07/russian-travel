@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\blocks",
     "\\blocks\\lead",
-    "\\blocks\\lead\\__subtitle",
-    "\\blocks\\lead\\__title",
-    "\\blocks\\page",
-    "\\blocks\\photo-grid",
-    "\\blocks\\places",
-    "\\blocks\\places\\__card",
-    "\\blocks\\places\\__card\\_type",
-    "\\blocks\\transparent-link"
+    "\\blocks\\lead\\__subtitle"
   ],
-  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

@@ -9,13 +9,13 @@
     line-height: 163%;
     color: #FFFFFF;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .card-grid__first-text {
         min-width: 456px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .card-grid__first-text {
         min-width: 352px;
         font-size: 16px;
@@ -23,10 +23,8 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .card-grid__first-text {
         min-width: 288px;
-        font-size: 16px;
-        margin: 0 0 25px;
     }
 }
