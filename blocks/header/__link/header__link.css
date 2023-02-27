@@ -8,11 +8,13 @@
 	text-align: right;
 	text-decoration-line: none;
 	color: #FFFFFF;
-	width: 1px; /* если у элемента не будет размеров, некоторые браузеры посчитают, что его вообще нет */
+	/* гит-пейджес по неизвестной причине это игнорирует*/
+	width: 1px;
 	height: 1px;
-	overflow: hidden; /* без этого свойства тоже сработает, но так наверняка. Мы его ещё изучим, оно скрывает элементы, выходящие за границы родителя */
+	overflow: hidden;
 	clip-path: inset(0 0 0 0);
 }
+/* гит-пейджес по неизвестной причине это игнорирует*/
 .header__link:checked ~ .header__link-label {
 	text-decoration-line: underline;
 }

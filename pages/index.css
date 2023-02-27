@@ -18,6 +18,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure-image/lead__figure-image.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -48,7 +49,6 @@
 @import url(../blocks/card-grid/__title/card-grid__title.css);
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__front-link/cover__front-link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
