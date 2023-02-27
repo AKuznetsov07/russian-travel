@@ -5,8 +5,6 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     min-height: 740px;
-    /*если указывать min-height, то указать направление столбец и растянуть содержимое вертикально не выходит при помощи стретч 
-    Я просто не совсем понимаю, нужно чтобы при добавлении в <section class="cover"> рос вертикально блок или можно, как сейчас при доб*/
 }
 @media screen and (max-width: 1279px) {
     .cover {
