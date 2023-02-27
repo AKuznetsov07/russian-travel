@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0 48px 92px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     min-height: 740px;
