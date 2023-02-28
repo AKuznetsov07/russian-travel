@@ -2,7 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\blocks",
-    "\\blocks\\body"
+    "\\blocks\\footer",
+    "\\blocks\\footer\\__link",
+    "\\blocks\\header",
+    "\\blocks\\header\\__language-selector",
+    "\\blocks\\header\\__link",
+    "\\blocks\\header\\__link\\_language",
+    "\\blocks\\places",
+    "\\pages"
   ],
   "PreviewInSolutionExplorer": false
 }
